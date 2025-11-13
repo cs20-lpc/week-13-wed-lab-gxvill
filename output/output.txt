@@ -1,0 +1,89 @@
+./main
+Welcome to my dictionary program!
+Here are your options:
+        1. Find
+        2. Insert
+        3. Remove
+        4. Sort
+        5. Size
+        6. Clear
+        7. Print
+        8. Quit
+Enter your option: 4
+What kind of sort algorithm should be used?
+        1. Bubble sort
+        2. Selection sort
+        3. Insertion sort
+1
+Number of key comparisons: 28
+Number of swaps: 15
+Enter your option: 4
+What kind of sort algorithm should be used?
+        1. Bubble sort
+        2. Selection sort
+        3. Insertion sort
+2
+Number of key comparisons: 21
+Number of swaps: 0
+Enter your option: 4
+What kind of sort algorithm should be used?
+        1. Bubble sort
+        2. Selection sort
+        3. Insertion sort
+3
+Number of key comparisons: 28
+Number of swaps: 0
+Enter your option: 4
+What kind of sort algorithm should be used?
+        1. Bubble sort
+        2. Selection sort
+        3. Insertion sort
+3
+Number of key comparisons: 28
+Number of swaps: 0
+Enter your option: 2
+Enter the key of the new record: tyler
+Enter the value of the new record: the creator
+Enter your option: 2
+Enter the key of the new record: public static void main
+Enter the value of the new record: string args
+Enter your option: 7
+--------------------------------------------------------------------------------
+   0 | banana                    | a fruit that many like, or a phone
+   1 | cactus                    | a pointy plant
+   2 | dog                       | a domesticated fluff ball
+   3 | graph                     | an awesome data structure!
+   4 | haskell                   | fantastic programming language, go learn it
+   5 | igloo                     | a cool house
+   6 | phoenix                   | a bird on fire
+   7 | quack                     | said Mr. Duck
+   8 | tyler                     | the creator
+   9 | public static void main   | string args
+--------------------------------------------------------------------------------
+Enter your option: 3
+Enter the key of the record to be removed from my dictionary: igloo
+Enter your option: 4
+What kind of sort algorithm should be used?
+        1. Bubble sort
+        2. Selection sort
+        3. Insertion sort
+1
+Number of key comparisons: 36
+Number of swaps: 2
+Enter your option: 4
+What kind of sort algorithm should be used?
+        1. Bubble sort
+        2. Selection sort
+        3. Insertion sort
+2
+Number of key comparisons: 28
+Number of swaps: 0
+Enter your option: 4
+What kind of sort algorithm should be used?
+        1. Bubble sort
+        2. Selection sort
+        3. Insertion sort
+3
+Number of key comparisons: 36
+Number of swaps: 0
+Enter your option: 8
