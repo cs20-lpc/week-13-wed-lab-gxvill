@@ -5,8 +5,8 @@ void ArrayList<T>::bubbleSort() {
 	int LEN = this->length;
 	for(int i = 0; i < LEN - 1; i++){
 		for(int j = LEN - 1; j > i; j--){
-			if(buffer[j] < buffer[j+1]){
-				swap(j, j+1);
+			if(buffer[j] < buffer[j-1]){
+				swap(j, j-1);
 				numSwaps++;
 			}
 			numComps++;
@@ -25,11 +25,11 @@ void ArrayList<T>::insertionSort() {
 			if(buffer[j] < buffer[j-1]){
 				int t = j;
 			}
+			numComps++;
 		}
-		numComps++;
 		if(i != t){
 			swap(t, i);
-				numSwaps++;
+			numSwaps++;
 		}
 	}
 }
