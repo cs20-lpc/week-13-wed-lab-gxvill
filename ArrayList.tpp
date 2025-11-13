@@ -1,16 +1,53 @@
 template <typename T>
 void ArrayList<T>::bubbleSort() {
     // TODO
+	int swaps = 0;
+	int LEN = this->length;
+	for(int i = 0; i < LEN - 1; i++){
+		for(int j = LEN - 1; j > i; j--){
+			if(buffer[j] < buffer[j+1]){
+				swap(j, j+1);
+				numSwaps++;
+			}
+			numComps++;
+		}
+	}
 }
-
 template <typename T>
 void ArrayList<T>::insertionSort() {
     // TODO
+	int swaps = 0;
+	int t = 0;
+	const int LEN = this->length;
+	for(int i = 0; i < LEN -1; i++){
+		t = i;
+		for(int j = LEN - 1; j > i; j--){
+			if(buffer[j] < buffer[j-1]){
+				int t = j;
+			}
+		}
+		numComps++;
+		if(i != t){
+			swap(t, i);
+				numSwaps++;
+		}
+	}
 }
 
 template <typename T>
 void ArrayList<T>::selectionSort() {
     // TODO
+	int swaps = 0;
+	const int LEN = this->length;
+	for(int i = 1; i < LEN; i++){
+		for(int j = LEN - 1; j > i; j--){
+			if(buffer[j] < buffer[j-1]){
+				swap(j, j-1);
+				numSwaps++;
+			}
+			numComps++;
+		}
+	}
 }
 
 /*******************************************************************************
